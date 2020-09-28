@@ -1,0 +1,16 @@
+n-star-rating{
+	font-family: 'Ionicons';
+	font-size: 48px;
+	display: inline-flex;
+	cursor: pointer
+}
+
+n-star-rating > .star::after{
+	content: '☆';
+	color: #555;	
+}
+
+n-star-rating > .star.full::after{
+	content: '★';
+	color: #fc0;
+}
